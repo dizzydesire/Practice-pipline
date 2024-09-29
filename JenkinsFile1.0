@@ -3,8 +3,8 @@ pipeline{
 	stages{
 		stage('checkout code'){
 			steps{
-				git branch: 'main', url: 'https://github.com/dizzydesire/Pipline-Jobs.git'
-
+				git branch: 'main', url: 'https://github.com/dizzydesire/Practice-pipline.git'
+				
 			}
 		}
 
